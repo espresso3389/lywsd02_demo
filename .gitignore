@@ -37,6 +37,9 @@
 **/android/gradlew.bat
 **/android/local.properties
 **/android/**/GeneratedPluginRegistrant.java
+**/android/**/.settings/
+**/android/app/.classpath
+**/android/**/.project
 
 # iOS/XCode related
 **/ios/**/*.mode1v3
@@ -71,3 +74,5 @@
 !**/ios/**/default.pbxuser
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+.vscode/
