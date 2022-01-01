@@ -28,9 +28,11 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.3
-  flutter_blue: ^0.8.0
-  rxdart: ^0.26.0
-  collection: ^1.15.0-nullsafety.4
+  flutter_blue:
+    git:
+      url: https://github.com/espresso3389/flutter_blue
+  rxdart: ^0.27.3
+  collection: ^1.15.0
 
 dev_dependencies:
   flutter_test:

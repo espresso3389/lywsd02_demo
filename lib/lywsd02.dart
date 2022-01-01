@@ -18,7 +18,7 @@ Future<BluetoothDevice?> _scan(_ScanResult Function(ScanResult) onDevice,
   StreamSubscription<ScanResult>? sub;
   try {
     await FlutterBlue.instance.stopScan(); // In case a scan is already running
-    final comp = Completer<BluetoothDevice>();
+    final comp = Completer<BluetoothDevice?>();
     sub = FlutterBlue.instance.scan(timeout: timeout).listen((scanResult) {
       final code = onDevice(scanResult);
       if (code == _ScanResult.skip) {

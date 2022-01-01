@@ -40,6 +40,7 @@
 **/android/**/.settings/
 **/android/app/.classpath
 **/android/**/.project
+**/.gradle
 
 # iOS/XCode related
 **/ios/**/*.mode1v3
